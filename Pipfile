@@ -10,6 +10,8 @@ kiwipiepy-model = "==0.18.0"
 langchain = "*"
 langchain-openai = "*"
 ipython = "*"
+black = "*"
+jupyter = "*"
 
 [dev-packages]
 

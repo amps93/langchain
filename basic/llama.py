@@ -1,6 +1,7 @@
 from langchain_community.llms import Ollama
-from langchain import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 
-llm = Ollama(model='llama3.1')
+llm = Ollama(model="llama-ko")
+# llm = Ollama(model='eeve')
 
-print(llm.invoke("how's the weather today?"))
+print(llm.invoke("오늘 날씨에 대해 알려줘"))

@@ -27,7 +27,9 @@ template = "{country}의 수도는 어디인가요?"
 
 # from_template 메소드를 이용하여 PromptTemplate 객체 생성
 prompt_template = PromptTemplate.from_template(template)
-print(prompt_template)  # 실행 결과: input_variables=['country'] template='{country}의 수도는 어디인가요?'
+print(
+    prompt_template
+)  # 실행 결과: input_variables=['country'] template='{country}의 수도는 어디인가요?'
 
 # prompt 생성
 prompt = prompt_template.format(country="대한민국")
@@ -95,7 +97,7 @@ print(chain.invoke(input))
 answer = chain.stream(input)
 # 스트리밍 출력
 stream_response(answer)
-print('-------------------------------------------------------')
+print("-------------------------------------------------------")
 """
 템플릿을 변경하여 적용
 * 아래의 프롬프트 내용을 얼마든지 변경 하여 테스트 해볼 수 있습니다.
