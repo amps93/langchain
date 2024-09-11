@@ -1,15 +1,7 @@
 LangChain
 
-[07. Runnable - &lt;랭체인LangChain 노트&gt; - LangChain 한국어 튜토리얼🇰🇷](https://wikidocs.net/233346)를 학습한 repo
+위키독스에서 공개된 랭체인 교재를 실습한 repo
 
-1. Basic
-   
-   1. langchain 사용법
-   
-   2. LCEL
-   
-   3. Runnable
-   
-   4. 로컬에 ollama 설치 후 llama 사용해보기
-   
-   
+1. [&lt;랭체인LangChain 노트&gt; - LangChain 한국어 튜토리얼🇰🇷 - WikiDocs](https://wikidocs.net/book/14314)
+
+2. [랭체인(LangChain) 입문부터 응용까지 - WikiDocs](https://wikidocs.net/book/14473)
