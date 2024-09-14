@@ -12,6 +12,7 @@ langchain-openai = "*"
 ipython = "*"
 black = "*"
 jupyter = "*"
+chromadb = "*"
 
 [dev-packages]
 
