@@ -13,6 +13,15 @@ ipython = "*"
 black = "*"
 jupyter = "*"
 chromadb = "*"
+unstructured = "*"
+libmagic = "*"
+python-magic-bin = "*"
+pypdf = "*"
+unstructured-inference = "*"
+pi-heif = "*"
+unstructured-pytesseract = "*"
+pytesseract = "*"
+pymupdf = "*"
 
 [dev-packages]
 

@@ -1,3 +1,8 @@
-from dotenv import load_dotenv
+from langchain_community.document_loaders import PyPDFDirectoryLoader
 
-load_dotenv()
+loader = PyPDFDirectoryLoader('./')
+data = loader.load()
+
+print(len(data))
+print(data[0])
+print(data[-3])
