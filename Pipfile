@@ -22,6 +22,9 @@ pi-heif = "*"
 unstructured-pytesseract = "*"
 pytesseract = "*"
 pymupdf = "*"
+sentence-transformers = "*"
+langchain-huggingface = "*"
+langchain-google-genai = "*"
 
 [dev-packages]
 
