@@ -25,6 +25,7 @@ pymupdf = "*"
 sentence-transformers = "*"
 langchain-huggingface = "*"
 langchain-google-genai = "*"
+faiss-cpu = "*"
 
 [dev-packages]
 
